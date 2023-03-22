@@ -22,6 +22,14 @@
         divCourseMenu.style.display = "flex"
         divCourseMenu.style.flexDirection = "column"
         divCourseMenu.style.borderRight = "thin solid lightgrey"
+        
+        divCourseMenu.addEventListener("wheel", function(event) {
+            if (event.deltaY > 0){
+                divCourseMenu.scrollTop += 30
+            } else {
+                divCourseMenu.scrollTop -= 30
+            }
+        }, false)
 
         let divCourseMenuHead = document.createElement("div")
         divCourseMenuHead.style.width = "100%"
