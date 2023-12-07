@@ -2,7 +2,7 @@
 // @name         Moodle-menu Extension
 // @namespace    http://tampermonkey.net/
 // @match        https://moodle.hs-esslingen.de/moodle/*
-// @version      1.0.2
+// @version      1.0.3
 // @description  Extension to add a course menu on the left side of each page for HS-Esslingen's moodle.
 // @author       HSE-Codes && Heinrian
 // @icon         https://moodle.hs-esslingen.de/moodle/theme/image.php/boost/theme/1676389471/favicon

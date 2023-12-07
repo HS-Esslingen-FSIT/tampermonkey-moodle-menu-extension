@@ -1,6 +1,6 @@
 # Tampermonkey Moodle menu Extension
 
-v1.0.2
+v1.0.3
 
 ![example.png](docs%2Fexample.png)
 
