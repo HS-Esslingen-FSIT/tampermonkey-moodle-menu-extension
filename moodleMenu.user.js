@@ -41,6 +41,7 @@
 
         let divCourseMenuList = document.createElement("div")
         divCourseMenuList.style.overflow = "auto"
+        divCourseMenuList.style.backgroundColor = "white"
         divCourseMenuList.setAttribute("id", "simpleList");
         divCourseMenuList.classList.add("list-group");
         divCourseMenu.appendChild(divCourseMenuList)
